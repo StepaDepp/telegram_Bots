@@ -22,6 +22,5 @@ def main(message):
         bot.send_message ( message.chat.id ,'Город указан не верно')
     
 
-
 bot.polling(none_stop = True)
 
